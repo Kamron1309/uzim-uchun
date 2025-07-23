@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color:whitesmoke
+}
+.link{
+     /* background-color:whitesmoke; */
+    padding: 0 160px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav{
+     max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav button{
+     width: 200;
+height: 100;
+top: 30px;
+left: 1135px;
+border-radius: 5px;
+background-color: cornflowerblue;
+color: whitesmoke;
+}
+main {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-family: Recoleta;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 65.25px;
+    letter-spacing: 0%;
+    color: #150C01;
+}
+
+main p {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color:#150C01;
+}
+main button{
+    width: 358;
+height: 60;
+top: 532px;
+left: 150px;
+border-radius: 5px;
+background-color:cornflowerblue;
+color: whitesmoke;
+}
+.tophumin h1{
+    font-family: Philosopher;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 40.63px;
+    letter-spacing: 0%;    
+}
+.tophumin p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;    
+}
+.tophumin button{
+    width: 358;
+    height: 60;
+    top: 532px;
+    left: 150px;
+    border-radius: 5px;
+    background-color:#DC780B;
+    color: whitesmoke;  
+}
+.tophumin {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 99px;
+    align-items: center;
+}
+.but h1 {
+    font-family: Chronicle Display;
+font-weight: 600;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.but p {
+    font-family: Gilroy;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0px;
+}
+.but{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 80px;
+    align-items: center;
+}
+.but button{
+    width: 358;
+    height: 60;
+    top: 532px;
+    left: 150px;
+    border-radius: 5px;
+    background-color:#DC780B;
+    color: whitesmoke; 
+}
+.button h1{
+    font-family: Philosopher;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 40.63px;
+    letter-spacing: 0%;    
+}
+.button p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%; 
+}
+.button button{
+    width: 358;
+    height: 60;
+    top: 532px;
+    left: 150px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    color: whitesmoke; 
+}
+.button{
+     display: flex;
+    justify-content: space-evenly;
+    gap: 99px;
+    align-items: center;
+}
+.buttonhumin h1{
+    font-family: Chronicle Display;
+font-weight: 600;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.buttonhumin p{
+    font-family: Gilroy;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0px;
+}
+.buttonhumin button{
+  width: 358;
+    height: 60;
+    top: 532px;
+    left: 150px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    color: whitesmoke;  
+}
+.buttonhumin{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 75px;
+    align-items: center;
+}
+.bag h1{
+   font-family: Chronicle Display;
+font-weight: 600;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%; 
+}
+.bag p{
+   font-family: Gilroy;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0px; 
+}
+.bag button{
+     width: 358;
+    height: 60;
+    top: 532px;
+    left: 150px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    color: whitesmoke; 
+}
+.bag{
+      display: flex;
+    justify-content: space-evenly;
+    gap: 99px;
+    align-items: center;
+}
+.make h1{
+     font-family: Chronicle Display;
+font-weight: 600;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%; 
+}
+.make p{
+  font-family: Gilroy;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0px;   
+}
+.make button{
+   width: 358;
+    height: 60;
+    top: 532px;
+    left: 150px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    color: whitesmoke;  
+}
+.make{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 75px;
+    align-items: center;
+}
+.surat{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+.surat h2{
+    font-family: Graphik;
+font-weight: 400;
+font-size: 52px;
+line-height: 62px;
+letter-spacing: 0.2px;
+text-align: center;
+/* color: #FFFFFF; */
+margin-top: 20px;
+}
+.surat p{
+    font-family: Graphik;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+text-align: center;
+/* color: #FFFFFF; */
+margin-bottom: 10px;
+}
+.surat button{
+    font-family: Graphik;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.2px;
+text-align: center;
+ border-radius: 5px;
+    background-color:cornflowerblue;
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+footer {
+    /* background-color: #5855E7; */
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
